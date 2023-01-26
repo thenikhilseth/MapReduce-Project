@@ -28,7 +28,7 @@ data_type = "testing"
 def connect_database():
 
     # Provide the mongodb atlas url to connect python to mongodb using pymongo
-    CONNECTION_STRING = "mongodb+srv://benazir:2concordia1!@cluster0.qognszm.mongodb.net/test"
+    CONNECTION_STRING = "mongodb+srv://username!@password.qognszm.mongodb.net/test"
 
     # Create a connection using MongoClient. You can import MongoClient or use pymongo.MongoClient
     client = MongoClient(CONNECTION_STRING)
